@@ -97,10 +97,13 @@
   margin-inline: auto;
   padding-inline: 15px;
 }
+.layout-two-content {
+  font-size: 0;
+}
 .block {
   display: inline-block;
   vertical-align: top;
-  width: 49.5%;
+  width: 50%;
 }
 .features-item {
   margin-bottom: 20px;
@@ -136,6 +139,7 @@
   padding-left: 48px;
   color: rgba(57, 20, 0, 0.64);
   line-height: 2; /* 32/16 */
+  font-size: 16px;
 }
 .list-item:not(:last-child) {
   margin-bottom: 16px;
