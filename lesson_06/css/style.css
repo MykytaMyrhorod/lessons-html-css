@@ -59,7 +59,9 @@
   margin-bottom: 14px;
 }
 .main-content-subtitle {
-  margin-bottom: 50px;
+  margin-inline: auto;
+  margin-block-end: 50px;
+  max-width: 1096px;
 }
 .main-content-subtitle p {
   color: #999;
