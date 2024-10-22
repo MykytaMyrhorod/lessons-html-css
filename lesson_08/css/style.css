@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,500,800&display=swap");
+@import url("reset.css");
+/* ------------------------------ */
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+[class*="__container"] {
+  max-width: 1200px;
+  padding-inline: 15px;
+  margin-inline: auto;
+}
+/* ------------------------------ */
+body {
+  font-family: "Epilogue", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+.header {
+  background-color: #a9a9a9a9;
+  padding-block: 20px;
+}
+.header__title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+/* ---------------------------------------- */
+.homework-1-block {
+  background-color: #28293e;
+}
+.header-logo-block__logo img {
+  max-width: 170px;
+  vertical-align: middle;
+}
+.header-logo__description {
+  display: inline-block;
+  color: #fff;
+}
+/* ------------------------------------------------ */
+.homework-2-block {
+  background-color: #fdf0e9;
+  padding-block: 80px;
+}
+.bitmap-block {
+  margin-bottom: 20px;
+}
+.bitmap-block__img {
+  max-width: 1170px;
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 6px;
+}
+.bitmap-block__description {
+  background-color: #fff;
+  padding-block: 20px;
+  color: #000;
+  text-align: center;
+}
+.bitmap-block__description::before {
+  content: "";
+  background: url(../images/bitmap-img/up-arrow.webp) no-repeat;
+  background-position: center;
+  background-size: 40px;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+/* ------------------------------------------------ */
+.homework-3-block {
+  background-color: #fdf0e9;
+  padding-bottom: 50px;
+}
+.circle-1 img {
+  vertical-align: middle;
+}
+.circle-1__description {
+  display: inline-block;
+}
+.circle-2 img {
+  vertical-align: middle;
+}
+.circle-2__description {
+  display: inline-block;
+}
+/* ------------------------------------------------ */
+.homework-4-block {
+  background-color: #fdf0e9;
+  padding-bottom: 50px;
+}
+.video-block img {
+  border-radius: 6px;
+  max-width: 300px;
+  vertical-align: middle;
+}
+.video-block__description {
+  display: inline-block;
+}
+/* ------------------------------------------------ */
+.homework-5-block {
+  background-color: #fdf0e9;
+  padding-bottom: 50px;
+}
+.icons-block img {
+  display: block;
+}
+.icons-block img:not(:last-child) {
+  margin-bottom: 30px;
+}
+.icons-block__description {
+  background-color: #fff;
+  padding: 20px;
+}
+.icons-block__description::before {
+  content: "";
+  background: url(../images/bitmap-img/up-arrow.webp) no-repeat;
+  background-position: center;
+  background-size: 40px;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+/* ------------------------------------------------ */
+.homework-6-block {
+  background-color: #fdf0e9;
+}
+.star {
+  vertical-align: middle;
+}
+.star__description {
+  display: inline-block;
+}
+.svg-block {
+}
+.svg-block-images {
+  vertical-align: middle;
+  max-width: 338px;
+}
+.svg-block-images-description {
+  display: inline-block;
+}
+.quotation-mark {
+  vertical-align: middle;
+}
+.quotation-mark-description {
+  display: inline-block;
+}
+.cloud {
+  vertical-align: middle;
+  max-width: 100px;
+}
+.cloud-description {
+  display: inline-block;
+}
+.social-media-icons-block img {
+  vertical-align: middle;
+}
+.social-media-icons-description {
+  display: inline-block;
+}
+/* ------------------------------------------------------- */
+.footer {
+  background-color: #a9a9a9a9;
+}
+.footer-text {
+  padding: 20px;
+  text-align: center;
+  color: #000;
+  font-size: 22px;
+}
