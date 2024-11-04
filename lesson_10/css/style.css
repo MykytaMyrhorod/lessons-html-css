@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css?family=Epilogue:400,800&display=swap");
+@import url("reset.css");
+/* ------------------------------------------------- */
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+[class*="__container"] {
+  max-width: 1200px;
+  padding-inline: 15px;
+  margin-inline: auto;
+}
+/* ------------------------------------------------- */
+body {
+  font-family: "Epilogue", sans-serif;
+}
+/* ------------------------------------------------- */
+.header {
+  background-color: rgba(144, 143, 144, 1);
+  height: 50px;
+  font-weight: 800;
+}
+.header__content {
+  position: relative;
+}
+.header__title {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  padding-inline: 10px;
+  line-height: 50px;
+}
+.menu {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.menu__item {
+  display: inline-block;
+  min-width: 100px;
+  text-align: center;
+  position: relative;
+}
+.menu__item:not(:last-child) {
+  margin-right: 15px;
+}
+.menu__item:hover {
+  background-color: #626060a9;
+  color: #fff;
+}
+.menu__item:hover .menu__link {
+  text-decoration: underline;
+}
+.menu__item:hover .sub-menu {
+  visibility: visible;
+  opacity: 1;
+}
+.menu__link {
+  line-height: 50px;
+}
+.sub-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #626060a9;
+  padding-block: 15px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 50;
+}
+.sub-menu__item {
+  width: 100px;
+}
+.sub-menu__item:not(:last-child) {
+  margin-bottom: 15px;
+}
+.sub-menu__item:hover .sub-menu__link {
+  text-decoration: underline;
+}
+/* ------------------------------------------------- */
+.portfolio-works {
+  background-color: #3a3c56;
+  padding-block: 50px;
+}
+.portfolio-works__container {
+}
+.portfolio-works__content {
+}
+.layouts-cards {
+  display: inline-block;
+  font-size: 0;
+  width: 100%;
+}
+.layouts-cards-item {
+  display: inline-block;
+  width: 33.333%;
+  padding: 16px;
+  border: 1px solid #9b9b9b;
+  position: relative;
+}
+.layouts-cards-item__image {
+  position: relative;
+}
+.layouts-cards-item__image img {
+  width: 100%;
+}
+.layouts-cards-item__image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(92, 32, 0, 0.32);
+}
+.layouts-cards-item__button {
+  position: absolute;
+  bottom: 139px;
+  left: 66px;
+}
+.layouts-cards-item__button a {
+  color: #391400;
+  line-height: 2; /* 32/16 */
+  padding: 5px 15px 1px;
+  background-color: #fff;
+  border-radius: 19px;
+  font-size: 16px;
+}
+.layouts-cards-item__subtitle {
+  position: absolute;
+  bottom: 67px;
+  left: 66px;
+}
+.layouts-cards-item__subtitle p {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.2; /* 48/40 */
+}
+/* ------------------------------------------------- */
+.block-svg-image {
+  background-color: #3a3c56;
+}
+.block-svg-image__content {
+  width: 571px;
+  height: 602px;
+  position: relative;
+}
+.block-svg-image__background-circle {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+.block-svg-image__laptop-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.laptop__image {
+  position: absolute;
+  top: 24px;
+  left: 21px;
+}
+.block-svg-image__circle-stars {
+  width: 112px;
+  height: 112px;
+  background-color: #ef6d58;
+  border-radius: 50%;
+  position: absolute;
+  top: 40px;
+  left: 304px;
+}
+.block-svg-image__stars {
+  position: absolute;
+  top: 28px;
+  left: 35px;
+}
+.block-svg-image__cloud {
+  position: absolute;
+  top: 80px;
+  left: 458px;
+}
+.block-svg-image__portrait-oval {
+  position: absolute;
+  bottom: 108px;
+  right: 0;
+}
+.block-svg-image__image-portrait {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.block-svg-image__big-arrow {
+  position: absolute;
+  top: 341px;
+  left: 0;
+}
+.block-svg-image__form-svg {
+  position: absolute;
+  top: 431px;
+  left: 56px;
+}
+.block-svg-image__small-arrow {
+  position: absolute;
+  bottom: 20px;
+  left: 314px;
+}
+/* ------------------------------------------------- */
+.footer {
+  background-color: rgba(144, 143, 144, 1);
+  height: 50px;
+}
+.footer__container {
+}
+.footer__link {
+  text-align: center;
+  line-height: 50px;
+}
