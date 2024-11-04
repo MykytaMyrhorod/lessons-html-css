@@ -82,7 +82,7 @@ body {
 }
 /* ------------------------------------------------- */
 .portfolio-works {
-  background-color: #3a3c56;
+  background-color: #28293e;
   padding-block: 50px;
 }
 .portfolio-works__container {
@@ -98,7 +98,7 @@ body {
   display: inline-block;
   width: 33.333%;
   padding: 16px;
-  border: 1px solid #9b9b9b;
+  border: 1px solid #3a3c56;
   position: relative;
 }
 .layouts-cards-item__image {
@@ -142,7 +142,7 @@ body {
 }
 /* ------------------------------------------------- */
 .block-svg-image {
-  background-color: #3a3c56;
+  background-color: #28293e;
 }
 .block-svg-image__content {
   width: 571px;
