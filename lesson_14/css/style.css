@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css?family=Manrope:400,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap");
+@import url("reset.css");
+
+/* --------------------------- */
+[class*="__container"] {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 15px;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: clip;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper > main {
+  flex-grow: 1;
+}
+/* --------------------------- */
+body {
+  font-family: "Manrope", sans-serif;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+/* --------------------------- */
+.dark-form {
+  background-color: #141414;
+  padding: 20px 0 20px 0px;
+}
+.form-block {
+  max-width: 976px;
+  background-color: #0f0f0f;
+  border: 1px solid #262626;
+  border-radius: 12px;
+  margin-inline: auto;
+  padding: 50px;
+}
+.support-form--margin > div:not(:last-child) {
+  margin-bottom: 50px;
+}
+.block-name,
+.block-contact {
+  display: flex;
+  column-gap: 50px;
+}
+.block-name > div,
+.block-contact > div {
+  flex: 1 1 50%;
+}
+.block-name > div label,
+.block-contact > div label {
+  display: inline-block;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+.block-name > div input,
+.block-contact > div input {
+  padding: 20px;
+  border: 1px solid #262626;
+  background-color: #141414;
+  border-radius: 8px;
+}
+.block-text {
+}
+.block-text > label {
+  display: inline-block;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+.block-text > textarea {
+  height: 163px;
+  resize: vertical;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #141414;
+  border: 1px solid #262626;
+}
+.block-confidentiality > div {
+  display: flex;
+  justify-content: flex-start;
+  flex-grow: 1;
+}
+.block-confidentiality > div label {
+  color: #999;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.block-confidentiality > div input {
+  max-width: 28px;
+  max-height: 28px;
+  margin-right: 10px;
+}
+.block-confidentiality {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.block-confidentiality > *:first-of-type:not(:last-child) {
+  margin-right: 70px;
+}
+.block-confidentiality > button {
+  white-space: nowrap;
+  padding: 18px 24px;
+  background-color: #e50000;
+  line-height: 1.5;
+  border-radius: 8px;
+  will-change: box-shadow;
+  transition: box-shadow 0.3s;
+}
+.block-confidentiality > button:hover {
+  box-shadow: 0px 0px 15px 2px #e50000;
+}
+/* --------------------------- */
+.white-form {
+  font-family: "work sans", sans-serif;
+  font-weight: 400;
+  color: #a53dff;
+}
+.white-form__container {
+}
+.white-form__block {
+  max-width: 560px;
+  margin-inline: auto;
+}
+.white-form__text {
+  margin-bottom: 50px;
+}
+.white-form__text p {
+  color: #87909d;
+  line-height: 1.3;
+  margin-bottom: 50px;
+}
+.callback-message-form > div:not(:last-of-type) {
+  margin-bottom: 24px;
+}
+.callback-message-form > div input {
+  padding-bottom: 14px;
+  border-bottom: 1.5px solid #e6e8eb;
+}
+.callback-message-form > div input:focus {
+  outline: none;
+  border-bottom: 1.5px solid #a53dff;
+}
+.callback-message-form > div input:focus::placeholder {
+  color: #a53dff;
+}
+.price-form {
+  display: flex;
+  column-gap: 24px;
+}
+.price-form input:nth-child(1) {
+  flex: 1 1 200px;
+}
+.price-form input:nth-child(2) {
+  flex: 1 1 336px;
+}
+.comment-field textarea {
+  border-bottom: 1.5px solid #e6e8eb;
+  resize: vertical;
+  height: 48px;
+}
+.comment-field textarea:focus {
+  outline: none;
+  border-bottom: 1.5px solid #a53dff;
+}
+
+.comment-field {
+  margin-bottom: 50px;
+}
+.callback-message-form button {
+  padding: 12px 24px;
+  background-color: #a53dff;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  will-change: box-shadow;
+  transition: box-shadow 0.3s;
+}
+.callback-message-form button:hover {
+  box-shadow: 0px 0px 15px 2px #a53dff;
+}
+.callback-message-form button::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  margin-left: 12px;
+  background: url(../images/arrow.svg);
+}
