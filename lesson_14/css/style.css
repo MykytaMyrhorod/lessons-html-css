@@ -70,6 +70,7 @@ body {
   margin-bottom: 16px;
 }
 .block-text > textarea {
+  min-height: 163px;
   height: 163px;
   resize: vertical;
   padding: 20px;
@@ -159,6 +160,7 @@ body {
 .comment-field textarea {
   border-bottom: 1.5px solid #e6e8eb;
   resize: vertical;
+  min-height: 48px;
   height: 48px;
 }
 .comment-field textarea:focus {
